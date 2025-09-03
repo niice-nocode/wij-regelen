@@ -1,3 +1,5 @@
+console.log('cms-slider.js geladen');
+
 var mySwiper = new Swiper ('#basic-swiper', {
  slidesPerView: 3,
  slidesPerGroup: 3,
