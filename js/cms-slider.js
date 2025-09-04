@@ -1,5 +1,3 @@
-console.log('cms-slider.js geladen');
-
 var mySwiper = new Swiper ('#basic-swiper', {
  slidesPerView: 3,
  slidesPerGroup: 3,
@@ -33,25 +31,4 @@ var mySwiper = new Swiper ('#basic-swiper', {
        spaceBetween: 24,
      }
    },
-});
-
-// Disable/enable navigation buttons based on current slide
-function updateNavButtons() {
-  const prevBtn = document.getElementById('prev-button-basic');
-  const nextBtn = document.getElementById('next-button-basic');
-  if (mySwiper.isBeginning) {
-    prevBtn.disabled = true;
-  } else {
-    prevBtn.disabled = false;
-  }
-  if (mySwiper.isEnd) {
-    nextBtn.disabled = true;
-  } else {
-    nextBtn.disabled = false;
-  }
-}
-mySwiper.on('slideChange', updateNavButtons);
-// Initial state
-updateNavButtons();
-
-console.log('cms-slider.js einde');
+     });
