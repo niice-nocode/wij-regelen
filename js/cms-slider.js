@@ -53,3 +53,5 @@ function updateNavButtons() {
 mySwiper.on('slideChange', updateNavButtons);
 // Initial state
 updateNavButtons();
+
+console.log('cms-slider.js einde');
